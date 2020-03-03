@@ -23,4 +23,4 @@ The program should allow users to:
 
 ### Lessons Learned:
 
-  * 
+  * Going to use more Let's in my functions.
