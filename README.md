@@ -7,20 +7,18 @@ Author: Foti Mougos<br>
 Create a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and feature dynamically updated HTML and CSS powered by jQuery. We will be using moment.js library to view and update the time.
 
 The program should allow users to:
-* Add events to Calendar
-* View events in the Calendar
-* When opened, the planner should display the current day
+* When opened, the planner should display the current day - tick
 * Timeblocks should be visible for standard business hours
 * Timeblocks should be colour coded for past, present (current hour?), future
-* Events should be clickable, and should open up the event
+* Events should be clickable, and you should be able to type in them
 * Events should persist in local storage
 * Events should persist when the page is refreshed
 
 ### Website Demo
 ![CalendarView](assets/images/ "Calendar View")
 
-![EventView](assets/images/ "Event View")
-
 ### Lessons Learned:
 
-  * Going to use more Let's in my functions.
+  * Going to use more Let's in my functions to keep variables scoped
+  * Event handlers must be set after any procedurally generated html is appended
+  * I'm starting to get over localStorage
