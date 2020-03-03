@@ -64,9 +64,9 @@ function generateRows(){
     let now = moment();
 
     //Test Date/Time
-    // var date = "2017-03-13";
-    // var time = "12:00";
-    // now = moment(date + ' ' + time);
+    var date = "2017-03-13";
+    var time = "12:00";
+    now = moment(date + ' ' + time);
 
     let currentHour = now.hour(); //Number
     
